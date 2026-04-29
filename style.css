@@ -140,28 +140,25 @@ header .header-menu {
   font-size: clamp(0.9rem, 2vw, 1.1rem);
 }
 
-.head-txt-container .head-btn button {
+.head-txt-container .head-btn a {
   background-color: #e71db1;
   border-radius: 0 25px;
   padding: 12px 14px;
   transition: .3s;
   border: none;
+  display: inline-block;
   font-weight: bold;
   font-size: clamp(0.9rem, 1.5vw, 1rem);
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-}
-
-.head-txt-container .head-btn button a {
   color: white;
   text-decoration: none;
 }
 
 
-.head-txt-container .head-btn button:hover {
+.head-txt-container .head-btn a:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 22px -8px rgba(255, 79, 135, .55);
   background-color: #d615a2;
-
 }
 
 .work {
