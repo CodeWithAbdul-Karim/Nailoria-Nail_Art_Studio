@@ -1,7 +1,7 @@
 /* STORED VALUES */
 .first-title {
   font-family: "Dancing Script", cursive;
-  font-size: clamp(2.2rem, 5vw, 3.2rem);
+  font-size: clamp(2.6rem, 5vw, 3.2rem);
 }
 
 .second-title {
@@ -15,7 +15,7 @@
 }
 
 .head-para {
-  font-size: clamp(10px, 3vw, 16px);
+  font-size: clamp(10px, 3.2vw, 16px);
 }
 
 .sec-bg-color {
@@ -751,7 +751,7 @@ footer ul li i {
   object-fit: cover;
 }
 
-.aboutus-section1 p {
+.aboutus-section1 .row p {
   text-align: justify;
   line-height: 1.7rem;
 }
