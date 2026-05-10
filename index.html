@@ -150,18 +150,23 @@
         <!-- ABOUT US SECTION -->
         <section class="aboutus-section1 py-5 sec-bg-color">
             <div class="container">
-                <div class="text-center"><h1 class="first-title">About Nailoria</h1></div>
-                <p class="text-muted text-center head-para">Where creativity meets elegance through stunning nail artistry.</p>
+                <div class="text-center">
+                    <h1 class="first-title">About Nailoria</h1>
+                </div>
+                <p class="text-muted text-center head-para">Where creativity meets elegance through stunning nail
+                    artistry.</p>
                 <div class="row g-4 mt-2">
                     <div class="col-lg-6">
                         <div class="py-2 mb-2">
-                        <h2>Our <span class="span-color">Story</span></h2>
-                        <p class="mt-4 text-muted">Founded in 2024, Nailoria Nail Art Studio is dedicated to creating
-                            stylish and elegant nail art designs that reflect creativity and self-expression. We focus
-                            on quality service, hygiene, and modern trends to give every client a beautiful and
-                            confident experience.</p>
-                            </div>
-                            <h2>Why <span class="span-color">Choose</span> Us?</h2>
+                            <h2>Our <span class="span-color">Story</span></h2>
+                            <p class="mt-4 text-muted">Founded in 2024, Nailoria Nail Art Studio is dedicated to
+                                creating
+                                stylish and elegant nail art designs that reflect creativity and self-expression. We
+                                focus
+                                on quality service, hygiene, and modern trends to give every client a beautiful and
+                                confident experience.</p>
+                        </div>
+                        <h2>Why <span class="span-color">Choose</span> Us?</h2>
                         <!-- WHY CHOOSE US  -->
                         <div class="row reasons g-4 py-4">
                             <div class="col-lg-12">
@@ -191,7 +196,6 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="text-center mt-2">
                             <a href="aboutus.html" class="sec-btn">More Details &#8594</a>
                         </div>
@@ -200,6 +204,94 @@
                         <img src="images/About/aboutus/section-1.png" alt="nailoria-img"
                             class="img-fluid shadow mx-auto">
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT US SECTION -->
+        <section class="contact py-5">
+            <div class="container">
+                <h1 class="first-title text-center">Feel Free to Contact</h1>
+                <p class="head-para text-center text-muted">We’re here to help and answer any questions you may have.
+                </p>
+                <!-- <div class="d-flex justify-content-center"> -->
+                    <div class="contact-side mt-3">
+                        <form id="nailoria-form" class="nailoria-contact form-card mx-auto">
+                            <div class="mb-3">
+                                <label for="name" class="form-label input-field">Name</label>
+                                <input type="text" id="name" class="form-control">
+                                <p class="error text-danger mt-1"></p>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label input-field">Email</label>
+                                <input type="text" id="email" class="form-control">
+                                <p class="error text-danger mt-1"></p>
+                            </div>
+                            <div class="mb-3">
+                                <label for="password" class="form-label input-field">Password</label>
+                                <input type="password" id="password" class="form-control">
+                                <p class="error text-danger mt-1"></p>
+                            </div>
+                            <div class="mb-3">
+                                <label for="comment" class="mb-2">Message</label>
+                                <textarea class="form-control input-field" rows="5" id="comment" name="text"></textarea>
+                                <p class="error text-danger mt-1"></p>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Submit</button>
+                            <div class="alert alert-success mt-3 d-none" id="successAlert">
+                                Thanks! Your message is sent.
+                            </div>
+                        </form>
+                    </div>
+                <!-- </div> -->
+                <div class="text-center mt-4">
+                    <a href="contact.html" class="sec-btn">More Details &#8594</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEEDBACK SECTION -->
+        <section class="feedback py-5 sec-bg-color" id="feedback-section">
+            <div class="container">
+                <h1 class="text-center first-title">Share Your Feedback</h1>
+                <p class="head-para">Help us improve — tell us what you love or what we can do better.</p>
+                <form id="feedback-form" class="form-card mx-auto mt-4">
+                    <div class="row">
+                        <div class="col-md-6 mt-1">
+                            <label for="f-name" class="form-label input-field">Name</label>
+                            <input type="text" id="f-name" class="form-control">
+                            <p class="error text-danger mt-1"></p>
+                        </div>
+                        <div class="col-md-6 mt-1">
+                            <label for="f-email" class="form-label input-field">Email</label>
+                            <input type="text" id="f-email" class="form-control">
+                            <p class="error text-danger mt-1"></p>
+                        </div>
+                        <div class="col-md-12 mt-1">
+                            <label for="rating" class="form-label input-field">Rating</label>
+                            <select id="rating" class="form-select">
+                                <option value="" selected disabled>Select your rating...</option>
+                                <option value="5">⭐⭐⭐⭐⭐ Excellent</option>
+                                <option value="4">⭐⭐⭐⭐ Good</option>
+                                <option value="3">⭐⭐⭐ Average</option>
+                                <option value="2">⭐⭐ Poor</option>
+                                <option value="1">⭐ Very Poor</option>
+                            </select>
+                            <p class="error text-danger mt-1"></p>
+                        </div>
+                        <div class="col-md-12 mt-1">
+                            <label for="feedback" class="mb-2">Your feedback</label>
+                            <textarea class="form-control input-field" rows="5" id="feedback" name="text"></textarea>
+                            <p class="error text-danger mt-1"></p>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100" id="submit-change-color">Submit</button>
+                        <div class="alert alert-success mt-3 d-none" id="f-successAlert">
+                            Thanks for your feedback.
+                        </div>
+                    </div>
+                </form>
+                <div class="text-center mt-4">
+                    <a href="feedback.html" class="sec-btn">More Details &#8594</a>
                 </div>
             </div>
         </section>
@@ -278,6 +370,9 @@
 
     <!-- BOOTSTRAP JS LINK -->
     <script src="Bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- CUSTON JS -->
+    <script src="index.js"></script>
 </body>
 
 </html>

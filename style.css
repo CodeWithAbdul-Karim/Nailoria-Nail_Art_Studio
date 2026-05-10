@@ -339,6 +339,7 @@ footer ul li i {
 }
 
 .form-card {
+    max-width: 640px;
   background: #fff;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   border-radius: 22px;
@@ -346,22 +347,22 @@ footer ul li i {
   padding: 2rem;
 }
 
-.contact .row .contact-side .nailoria-contact p {
+.contact .contact-side .nailoria-contact p {
   font-size: 14px;
 }
 
-.contact .row .contact-side .nailoria-contact .form-control {
+.contact .contact-side .nailoria-contact .form-control {
   border-radius: 12px;
   border: 1px solid #f0d9e2;
   padding: .65rem .9rem;
 }
 
-.contact .row .contact-side .nailoria-contact .form-control:focus {
+.contact .contact-side .nailoria-contact .form-control:focus {
   border-color: #ff7aa6;
   box-shadow: 0 0 0 .2rem rgba(255, 122, 166, .18);
 }
 
-.contact .row .contact-side .nailoria-contact button {
+.contact .contact-side .nailoria-contact button {
   background-color: #fe699b;
   border-radius: 0 25px;
   padding: 12px 14px;
@@ -375,7 +376,7 @@ footer ul li i {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.contact .row .contact-side .nailoria-contact button:hover {
+.contact .contact-side .nailoria-contact button:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 22px -8px rgba(255, 79, 135, .55);
   background-color: #fd548c;
@@ -489,9 +490,6 @@ footer ul li i {
   margin-bottom: 2.5rem;
 }
 
-.feedback form {
-  max-width: 640px;
-}
 
 .feedback form button {
   background-color: #fe699b;
