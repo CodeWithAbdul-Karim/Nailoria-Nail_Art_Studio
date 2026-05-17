@@ -989,9 +989,17 @@ footer ul li i {
 
 .grouping-category .container .row .gallery-img {
   width: 280px;
+  height: 280px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.18);
   position: relative;
   border-radius: 14px;
   overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.grouping-category .container .row .gallery-img:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 18px 35px rgba(0,0,0,0.25);
 }
 
 .grouping-category .container .gallery-img::after {
