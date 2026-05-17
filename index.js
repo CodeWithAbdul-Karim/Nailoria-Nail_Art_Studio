@@ -1,18 +1,9 @@
-// NAVBAR
-const toggler = document.querySelector(".custom-toggler");
-
-toggler.addEventListener("click", function () {
-    this.classList.toggle("active");
-});
-
-
 $(document).ready(function () {
     // CONTACT FORM VALIDATIONS
     $("#nailoria-form").submit(function (e) {
         e.preventDefault();
         let name = $("#name").val().trim();
         let email = $("#email").val().trim();
-        let password = $("#password").val().trim();
         let comment = $("#comment").val().trim();
         let isValid = true
         $(".error").text("");
@@ -25,15 +16,6 @@ $(document).ready(function () {
         if (email === "") {
             $("#email").next(".error").text("Please enter a valid email.");
             $("#email").css("border", "1px solid #dc3545");
-            isValid = false;
-        }
-        if (password === "") {
-            $("#password").next(".error").text("Please enter your email password.");
-            $("#password").css("border", "1px solid #dc3545");
-            isValid = false;
-        } else if (password.length < 6) {
-            $("#password").next(".error").text("Minimum 6 letter required.");
-            $("#password").css("border", "1px solid #dc3545");
             isValid = false;
         }
         if (comment === "") {
@@ -57,7 +39,7 @@ $(document).ready(function () {
         }
     });
 
- 
+
 
 
     // FEEDBACK FORM VALIDATIONS
@@ -108,11 +90,18 @@ $(document).ready(function () {
     });
 
     // REAL TIME ERROR
-       $("input, textarea, select").on("input", function () {
+    $("input, textarea, select").on("input", function () {
         if ($(this).val().trim() !== "") {
             $(this).siblings(".error").text("");
             $(this).css("border", "");
         }
     });
+
+    // NAVBAR
+    // const toggler = document.querySelector(".custom-toggler");
+
+    // toggler.addEventListener("click", function () {
+    //     this.classList.toggle("active");
+    // });
 });
 

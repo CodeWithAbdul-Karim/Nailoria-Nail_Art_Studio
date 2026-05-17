@@ -162,7 +162,6 @@ nav .nav-underline {
   box-shadow: none !important;
 }
 
-
 .navbar-collapse {
   transition: all 0.4s ease-in-out;
 }
@@ -485,7 +484,7 @@ footer ul li i {
   background: linear-gradient(to right, rgb(0 0 0 / 31%), rgb(0 0 0 / 28%));
 }
 
-.contact-feedback .hero-sec .main-heading {
+.contact-feedback .hero-sec .main-heading a, .contact-feedback .hero-sec .main-heading p{
   color: white;
   position: relative;
   z-index: 2;
@@ -495,7 +494,7 @@ footer ul li i {
   font-family: 'Playfair Display';
 }
 
-.contact-feedback .hero-sec .main-heading h1 span {
+.contact-feedback .hero-sec .main-heading h1 a span {
   font-style: italic;
   color: lightyellow;
 }
@@ -635,7 +634,7 @@ footer ul li i {
   background: linear-gradient(to right, rgb(0 0 0 / 31%), rgb(0 0 0 / 28%));
 }
 
-.about-nail .hero-sec .main-heading {
+.about-nail .hero-sec .main-heading a, .about-nail .hero-sec .main-heading p{
   color: white;
   position: relative;
   z-index: 2;
@@ -645,7 +644,7 @@ footer ul li i {
   font-family: 'Playfair Display';
 }
 
-.about-nail .main-heading h1 span {
+.about-nail .main-heading h1 a span {
   font-style: italic;
   color: lightyellow;
 }
@@ -832,7 +831,7 @@ footer ul li i {
   background: linear-gradient(to right, rgb(0 0 0 / 31%), rgb(0 0 0 / 28%));
 }
 
-.aboutus .hero-sec .main-heading {
+.aboutus .hero-sec .main-heading a, .aboutus .hero-sec .main-heading p{
   color: white;
   position: relative;
   z-index: 2;
@@ -842,7 +841,7 @@ footer ul li i {
   font-family: 'Playfair Display';
 }
 
-.aboutus .hero-sec .main-heading h1 span {
+.aboutus .hero-sec .main-heading h1 a span {
   color: lightyellow;
   font-style: italic;
 }
@@ -958,7 +957,7 @@ footer ul li i {
   background: linear-gradient(to right, rgb(0 0 0 / 31%), rgb(0 0 0 / 28%));
 }
 
-.gallery .hero-sec .main-heading {
+.gallery .hero-sec .main-heading a{
   color: white;
   position: relative;
   z-index: 2;
@@ -968,7 +967,7 @@ footer ul li i {
   font-family: 'Playfair Display';
 }
 
-.gallery .main-heading h1 span {
+.gallery .main-heading h1 span a{
   font-style: italic;
   color: lightyellow;
 }
