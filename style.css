@@ -957,7 +957,7 @@ footer ul li i {
   background: linear-gradient(to right, rgb(0 0 0 / 31%), rgb(0 0 0 / 28%));
 }
 
-.gallery .hero-sec .main-heading a{
+.gallery .hero-sec .main-heading a, .gallery .hero-sec .main-heading p{
   color: white;
   position: relative;
   z-index: 2;
@@ -967,7 +967,7 @@ footer ul li i {
   font-family: 'Playfair Display';
 }
 
-.gallery .main-heading h1 span a{
+.gallery .main-heading h1 a span {
   font-style: italic;
   color: lightyellow;
 }
